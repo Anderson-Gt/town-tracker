@@ -1,0 +1,5 @@
+.mask {
+    $base-color: #106861;
+    $lighter-green: lighten($base-color, 20%);
+    background: linear-gradient(135deg, $base-color, $lighter-green);
+}
